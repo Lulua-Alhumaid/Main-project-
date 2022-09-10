@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-03T22:37:03 AST" name="Suite" finished-at="2022-09-03T22:39:15 AST" duration-ms="132024">
+    <groups>
+      <group name="Testcase_6">
+        <method signature="testthree.BrowseMagazine_TC6()[pri:1, instance:mainproject.testthree@41e1e210]" name="BrowseMagazine_TC6" class="mainproject.testthree"/>
+      </group> <!-- Testcase_6 -->
+      <group name="Testcase_5">
+        <method signature="testthree.BrowseMagazine_TC5()[pri:2, instance:mainproject.testthree@41e1e210]" name="BrowseMagazine_TC5" class="mainproject.testthree"/>
+      </group> <!-- Testcase_5 -->
+      <group name="Testcase_4">
+        <method signature="testtow.AddRecipe_TC4()[pri:1, instance:mainproject.testtow@be35cd9]" name="AddRecipe_TC4" class="mainproject.testtow"/>
+      </group> <!-- Testcase_4 -->
+      <group name="Testcase_3">
+        <method signature="testone.search_TC3()[pri:3, instance:mainproject.testone@72cde7cc]" name="search_TC3" class="mainproject.testone"/>
+      </group> <!-- Testcase_3 -->
+      <group name="Testcase_2">
+        <method signature="testone.search_TC2()[pri:2, instance:mainproject.testone@72cde7cc]" name="search_TC2" class="mainproject.testone"/>
+      </group> <!-- Testcase_2 -->
+      <group name="Testcase_1">
+        <method signature="testone.search_TC1()[pri:1, instance:mainproject.testone@72cde7cc]" name="search_TC1" class="mainproject.testone"/>
+      </group> <!-- Testcase_1 -->
+    </groups>
+    <test started-at="2022-09-03T22:37:03 AST" name="Test" finished-at="2022-09-03T22:39:15 AST" duration-ms="132024">
+      <class name="mainproject.testtow">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:mainproject.testtow@be35cd9]" started-at="2022-09-03T22:34:58 AST" name="Setup" finished-at="2022-09-03T22:37:03 AST" duration-ms="125827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddRecipe_TC4()[pri:1, instance:mainproject.testtow@be35cd9]" started-at="2022-09-03T22:37:03 AST" name="AddRecipe_TC4" description="Verify if the user can Add new Recipe Successfully" finished-at="2022-09-03T22:37:04 AST" duration-ms="50" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='My Account'])[1]"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-04C0UM4', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [494db9840a9f70106f9848274d9663f6, findElement {using=xpath, value=(//span[text()='My Account'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63949/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 494db9840a9f70106f9848274d9663f6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='My Account'])[1]"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-04C0UM4', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [494db9840a9f70106f9848274d9663f6, findElement {using=xpath, value=(//span[text()='My Account'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63949/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 494db9840a9f70106f9848274d9663f6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at mainproject.testtow.AddRecipe_TC4(testtow.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRecipe_TC4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mainproject.testtow@be35cd9]" started-at="2022-09-03T22:39:21 AST" name="closeBrowser" finished-at="2022-09-03T22:39:21 AST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mainproject.testtow -->
+      <class name="mainproject.testthree">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:mainproject.testthree@41e1e210]" started-at="2022-09-03T22:33:49 AST" name="Setup" finished-at="2022-09-03T22:34:58 AST" duration-ms="68280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="BrowseMagazine_TC6()[pri:1, instance:mainproject.testthree@41e1e210]" started-at="2022-09-03T22:37:03 AST" name="BrowseMagazine_TC6" description="Test if the user can get the magazine from Explore section" finished-at="2022-09-03T22:37:54 AST" duration-ms="50747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseMagazine_TC6 -->
+        <test-method signature="BrowseMagazine_TC5()[pri:2, instance:mainproject.testthree@41e1e210]" started-at="2022-09-03T22:37:54 AST" name="BrowseMagazine_TC5" description="Test if the user can get the magazine from home page" finished-at="2022-09-03T22:38:04 AST" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseMagazine_TC5 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mainproject.testthree@41e1e210]" started-at="2022-09-03T22:39:18 AST" name="closeBrowser" finished-at="2022-09-03T22:39:21 AST" duration-ms="2630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mainproject.testthree -->
+      <class name="mainproject.testone">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:mainproject.testone@72cde7cc]" started-at="2022-09-03T22:32:53 AST" name="Setup" finished-at="2022-09-03T22:33:49 AST" duration-ms="56082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="search_TC1()[pri:1, instance:mainproject.testone@72cde7cc]" started-at="2022-09-03T22:37:03 AST" name="search_TC1" description="Test if the user can get correct Result from the search function " finished-at="2022-09-03T22:37:43 AST" duration-ms="39149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_TC1 -->
+        <test-method signature="search_TC2()[pri:2, instance:mainproject.testone@72cde7cc]" started-at="2022-09-03T22:37:43 AST" name="search_TC2" description="Test if the user can get correct Result from the search By INGREDIENTS." finished-at="2022-09-03T22:38:32 AST" duration-ms="49235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_TC2 -->
+        <test-method signature="search_TC3()[pri:3, instance:mainproject.testone@72cde7cc]" started-at="2022-09-03T22:38:32 AST" name="search_TC3" description="Test if the user can get correct Result from the search By INGREDIENTS without Add the Preference." finished-at="2022-09-03T22:39:15 AST" duration-ms="43585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_TC3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mainproject.testone@72cde7cc]" started-at="2022-09-03T22:39:16 AST" name="closeBrowser" finished-at="2022-09-03T22:39:18 AST" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mainproject.testone -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
